@@ -1,0 +1,72 @@
+/* normalize.css - Нормализация стилей для разных браузеров */
+
+/* Сбросим отступы и поля */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Сброс стилей для списков */
+ol, ul {
+    list-style: none;
+}
+
+/* Ссылки - без подчеркивания и наследуют цвет */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Кнопки, формы и элементы управления - сбрасываем фоны, границы */
+button,
+input,
+select,
+textarea {
+    background: none;
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Таблицы - убираем пространство между ячейками */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Стили для body */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.5;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Убираем дефолтное поведение изображений */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Стили для форм */
+input,
+textarea,
+button {
+    font: inherit;
+    color: inherit;
+}
+
+/* Убираем дефолтные стили с элементов формы */
+input[type="checkbox"],
+input[type="radio"] {
+    border: none;
+    appearance: none;
+    background: transparent;
+}
+
