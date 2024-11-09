@@ -9,15 +9,12 @@
 img{
     width: 150px;
     height: 150px;
+    position: fixed;
 }
 div{
     margin: 50px;
     float: left;
 }
 p{
-    overflow: scroll;
-    width:990px;
-    height:300px;
-    padding: 50px;
-    clear: left;
+    padding: 50px 250px;
 }
