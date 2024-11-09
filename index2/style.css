@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+.container{
+    width: min(100% - 40px, 1680px);
+}
 img{
     width: 150px;
     height: 150px;
@@ -12,6 +15,9 @@ div{
     float: left;
 }
 p{
+    overflow: scroll;
+    width:990px;
+    height:300px;
     padding: 50px;
     clear: left;
 }
