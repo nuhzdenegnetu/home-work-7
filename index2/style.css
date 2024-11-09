@@ -13,4 +13,5 @@ div{
 }
 p{
     padding: 50px;
+    clear: left;
 }
