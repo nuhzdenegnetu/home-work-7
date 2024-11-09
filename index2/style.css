@@ -9,11 +9,14 @@
 img{
     width: 150px;
     height: 150px;
-    position: fixed;
+    top: 50px;
+    position: sticky;
 }
 div{
     margin: 50px;
     float: left;
+    position: sticky;
+    top: 50px;
 }
 p{
     padding: 50px 250px;
