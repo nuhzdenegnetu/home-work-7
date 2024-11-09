@@ -9,8 +9,8 @@ div,span{
     height: 150px;
 }
 div{
-    display: block;
+    display: inline;
 }
 span{
-    display: block;
+    display: inline;
 }
